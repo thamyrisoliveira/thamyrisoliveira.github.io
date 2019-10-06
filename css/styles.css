@@ -1,0 +1,432 @@
+html, body{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background-color: #312F2F  ;
+	font-family: 'Poiret One', cursive;
+}
+
+.navigation {
+	background-color: #312F2F ;
+	color: white;
+	height: 50px;
+
+	animation-name: navegacao;
+	animation-duration: 3s;
+}
+.navigation ul{
+	margin-top: 0;
+	list-style: none;
+	padding-left: 0;
+	text-align: right;
+	height: 40px;
+}
+.navigation li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 18px;	
+}
+.navigation a {
+	color: white;
+	text-decoration: none;
+}
+.navigation a:hover{
+	color: #EF626C;
+}
+.navigation li.threeline-icon {
+	display: none;
+}
+.navigation li.threeline-icon:hover {
+	color: #EF626C;
+	cursor: pointer;
+}
+.capa {
+	color: white;
+	vertical-align: top;
+
+}
+.capa span{
+	color: #EF626C;
+	display: block;
+	text-align: center;
+}
+.capa div{
+	display: inline-block;
+	height: 650px;
+}
+.profile-pic{
+	width: 40%;
+	text-align: center;
+
+	animation-name: profile-anime;
+	animation-duration: 3s; 
+	
+}
+.profile-pic img{
+	width: 300px;
+	border-radius: 300px;
+	margin-top: 80px;
+}
+.profile-title {
+	vertical-align: top;
+	width:59%;
+
+
+	animation-name: profile-anime;
+	animation-duration: 3s; 
+}
+.profile-title h1{
+	font-size: 62px;
+	margin-top: 150px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 60px;
+}
+.profile-title h2{
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: -26px;
+}
+.main{
+	font-family:'Poiret One', cursive;
+	color: white;
+	padding: 80px 180px 80px 180px;
+
+}
+.foto-cv{
+	width: 350px;
+	border-radius: 350px;
+	float: right;
+	margin-top: 15px;
+}
+.main h1{
+	color: white;
+	font-weight: normal
+}
+.main h2{
+	color: white;
+	font-size: 16px;
+	font-weight: 80px;
+	text-transform: uppercase;
+	margin-top: 40px;  
+}
+.main h3{
+	font-size: 12px;
+	color:#EF626C;
+	text-transform: uppercase;
+}
+.main p{
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+.caminho {
+	margin-top: 0;
+	list-style: none;
+	padding-left: 0;
+	height: 40px;
+}
+.caminho li{
+	display: inline-block;
+}
+.caminho a{
+	color: white;
+	text-decoration: none;
+}
+.rodape {
+	color: white;
+	text-align: center;
+}
+.rodape p{
+	line-height: 40px;
+	letter-spacing: 3%;
+	margin-bottom: 0;
+}
+.conteudo-curriculo {
+	font-family:'Poiret One', cursive;
+	color: white;
+	padding: 80px, 180px, 80px, 180px;
+	margin: 10%;
+
+
+	animation-name: conteudo;
+	animation-duration: 2s;
+
+}
+.social-img {
+	width: 50px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.conteudo-curriculo h1{
+	color: white;
+	font-weight: normal
+}
+.conteudo-curriculo h2{
+	color: white;
+	font-size: 16px;
+	font-weight: 80px;
+	text-transform: uppercase;
+	margin-top: 40px;  
+}
+.conteudo-curriculo h3{
+	font-size: 12px;
+	color:#EF626C;
+	text-transform: uppercase;
+}
+.conteudo-curriculo p{
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+.conteudo-contato {
+	font-family:'Poiret One', cursive;
+	color: white;
+	padding: 80px, 180px, 80px, 180px;	
+	margin: 10%;
+
+
+	animation-name: conteudo;
+	animation-duration: 2s;
+}
+.conteudo-contato h1{
+	color: white;
+	font-weight: normal
+}
+.conteudo-contato h2{
+	color: white;
+	font-size: 16px;
+	font-weight: 80px;
+	text-transform: uppercase;
+	margin-top: 40px;  
+}
+.conteudo-contato h3{ 
+	font-size: 12px;
+	color:#EF626C;
+	text-transform: uppercase;
+}
+.conteudo-contato p {
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+.conteudo-portfolio {
+	font-family:'Poiret One', cursive;
+	color: white;
+	padding: 80px, 180px, 80px, 180px;	
+	margin: 10%;
+
+	animation-name: conteudo;
+	animation-duration: 2s;
+}
+.conteudo-portfolio h1{
+	color: white;
+	font-weight: normal
+}
+.conteudo-portfolio h2{
+	color: white;
+	font-size: 16px;
+	font-weight: 80px;
+	text-transform: uppercase;
+	margin-top: 40px;  
+}
+.conteudo-portfolio h3{ 
+	font-size: 12px;
+	color:#EF626C;
+	text-transform: uppercase;
+}
+.conteudo-portfolio p{
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+.miniatura {
+	width: 320px;
+	height: 320px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	background-size: contain;
+	overflow: hidden;
+
+	animation-name: conteudo;
+	animation-duration: 2s;
+}
+.miniatura a {
+	text-decoration: none;
+}
+.blackbox {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+	padding-top: 120px;
+	transition: 1s
+}
+.blackbox-text {
+	text-align: center;
+}
+
+.blackbox:hover {
+	opacity: 0.8;
+	transition: 1s;
+
+}
+.blackbox-text h1{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 0;
+
+}
+.blackbox-text h2{
+	margin-top: 0;
+	text-transform: none;
+	font-weight: normal;
+
+ }
+.pagina-trabalho {
+	font-family:'Poiret One', cursive;
+	color: white;
+	padding: 80px, 180px, 80px, 180px;
+	margin: 10%;
+
+}
+.pagina-trabalho h1{
+	color: white;
+	font-weight: normal
+}
+.pagina-trabalho h2{
+	color: white;
+	font-size: 16px;
+	font-weight: 80px;
+	text-transform: uppercase;
+	margin-top: 40px;  
+}
+.pagina-trabalho h3{
+	font-size: 12px;
+	color:#EF626C;
+	text-transform: uppercase;
+}
+.pagina-trabalho p{
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+.foto-trabalhos {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.back-link{
+	color:#EF626C;
+}
+
+@keyframes profile-anime {
+	0% {opacity: 0; transform: translate(100px, 0px)}
+	100% {opacity: 1; transform: translate(0px, 0px)}
+}
+
+@keyframes conteudo {
+	0% {opacity: 0; transform: translate(-20px, 0px)}
+	100% {opacity: 1; transform: translate(0px, 0px)}
+}
+@keyframes navegacao {
+	0% {opacity: 0; }
+	50%{ opacity: 0; }
+	100% {opacity: 1;}
+}
+@keyframes box-text {
+	0% { opacity: 0; }
+	100% {opacity: 100;}
+}
+
+@media (max-width: 1000px){
+.navigation li{
+	display: none;
+}
+.navigation li.threeline-icon{
+	display: inline-block;
+}
+.capa div{
+	display:block;
+	height:auto;
+
+}
+.profile-pic {
+	width: 100%;
+}
+.profile-pic img{
+	max-width: 80%;
+	margin-top: 0;
+}
+.profile-title {
+	width: 100%;
+} 
+.profile-title h1{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.profile-title h2{
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.conteudo-curriculo {
+	padding: 10px, 5%, 40px, 5%;
+	margin: 10%;
+	text-align: left;
+}
+.conteudo-curriculo p{
+	text-align: left;
+}
+.foto-cv {
+	max-width: 60%;
+	margin-top: 10%;
+}
+.conteudo-contato {
+	padding: 10px, 5%, 40px, 5%;
+	margin: 10%;
+	text-align: left;
+
+}
+.miniatura {
+	max-width: 100%;
+	background-size: auto 100%;
+}
+.blackbox {
+	opacity: 0.6;
+}
+.menujs {
+	 height: auto;
+}
+.menujs ul {
+	height: auto;
+	text-align: center;
+	padding-right: 20%;
+	padding-left: 20%; 	
+}
+.menujs li {
+	display: block;
+	border-bottom: solid grey 1px;
+}
+}
+
