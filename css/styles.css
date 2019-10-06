@@ -356,30 +356,42 @@ body{
 }
 
 @media (max-width: 900px){
+
+
 .navigation li{
 	display: none;
+	height: 60px;
 }
 .navigation li.threeline-icon{
 	display: inline-block;
 }
+.threeline-icon {
+	background-color: purple;
+
+}
+
 .capa div{
 	display:block;
 	height:auto;
-	width: auto;
 }
 .profile-pic {
+	background-color: green;
 	width: 100%;
+	margin-top: 40px;
 }
 .profile-pic img{
-	max-width: 100%;
-	margin-top: 100;
+	width: 60%;
+	max-width: 80%;
+	margin-top: 0;
 }
 .profile-title {
+	text-align: center;
+	background-color: yellow;
 	width: 100%;
 } 
 .profile-title h1{
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 	margin-top: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -407,7 +419,6 @@ body{
 	margin: 10%;
 	text-align: left;
 	width: auto;
-
 }
 .miniatura {
 	max-width: 100%;
