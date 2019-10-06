@@ -141,14 +141,13 @@ body{
 	text-decoration: none;
 }
 .rodape {
-	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 	text-align: center;
 }
-.rodape p{
-	line-height: 40px;
-	letter-spacing: 3%;
-	margin-bottom: 0;
-}
+
 .conteudo-curriculo {
 	font-family:'Poiret One', cursive;
 	color: white;
@@ -356,7 +355,7 @@ body{
 	100% {opacity: 100;}
 }
 
-@media (max-width: 1000px){
+@media (max-width: 900px){
 .navigation li{
 	display: none;
 }
@@ -366,21 +365,21 @@ body{
 .capa div{
 	display:block;
 	height:auto;
-
+	width: auto;
 }
 .profile-pic {
 	width: 100%;
 }
 .profile-pic img{
-	max-width: 80%;
-	margin-top: 0;
+	max-width: 100%;
+	margin-top: 100;
 }
 .profile-title {
 	width: 100%;
 } 
 .profile-title h1{
 	text-align: center;
-	font-size: 40px;
+	font-size: 50px;
 	margin-top: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -394,6 +393,7 @@ body{
 	padding: 10px, 5%, 40px, 5%;
 	margin: 10%;
 	text-align: left;
+	width: auto;
 }
 .conteudo-curriculo p{
 	text-align: left;
@@ -406,6 +406,7 @@ body{
 	padding: 10px, 5%, 40px, 5%;
 	margin: 10%;
 	text-align: left;
+	width: auto;
 
 }
 .miniatura {
@@ -427,6 +428,13 @@ body{
 .menujs li {
 	display: block;
 	border-bottom: solid grey 1px;
+}
+.rodape {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
 }
 }
 
