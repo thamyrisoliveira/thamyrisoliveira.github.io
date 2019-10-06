@@ -378,7 +378,7 @@ body{
 	margin-top: 40px;
 }
 .profile-pic img{
-	width: 60%;
+	width: 40%;
 	max-width: 80%;
 	margin-top: 0;
 }
@@ -388,7 +388,7 @@ body{
 } 
 .profile-title h1{
 	text-align: center;
-	font-size: 40px;
+	font-size: 70px;
 	margin-top: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
