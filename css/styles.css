@@ -365,20 +365,14 @@ body{
 .navigation li.threeline-icon{
 	display: inline-block;
 }
-.threeline-icon {
-
-}
-
 .capa div{
 	display:block;
 	height:auto;
 }
 .profile-pic {
 	width: 100%;
-	margin-top: 40px;
 }
 .profile-pic img{
-	width: 40%;
 	max-width: 80%;
 	margin-top: 0;
 }
@@ -387,14 +381,13 @@ body{
 	width: 100%;
 } 
 .profile-title h1{
-	text-align: center;
-	font-size: 70px;
+	font-size: 36px;
 	margin-top: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 .profile-title h2{
-	text-align: center;
+	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
