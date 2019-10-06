@@ -366,7 +366,6 @@ body{
 	display: inline-block;
 }
 .threeline-icon {
-	background-color: purple;
 
 }
 
@@ -375,7 +374,6 @@ body{
 	height:auto;
 }
 .profile-pic {
-	background-color: green;
 	width: 100%;
 	margin-top: 40px;
 }
@@ -386,7 +384,6 @@ body{
 }
 .profile-title {
 	text-align: center;
-	background-color: yellow;
 	width: 100%;
 } 
 .profile-title h1{
